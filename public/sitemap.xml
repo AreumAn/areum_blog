@@ -8,7 +8,18 @@
   </url>
   
   <url>
+    <loc>http://example.org/basics/second-content/</loc>
+    <lastmod>2019-02-26T07:50:24-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/basics/first-content/</loc>
+    <lastmod>2019-02-26T07:50:17-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.org/</loc>
+    <lastmod>2019-02-26T07:50:17-05:00</lastmod>
     <priority>0</priority>
   </url>
   

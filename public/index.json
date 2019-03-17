@@ -7,6 +7,20 @@
 	"content": " Chapter X Some Chapter title Test page.\n"
 },
 {
+	"uri": "http://example.org/basics/second-content/",
+	"title": "Second Content",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/basics/first-content/",
+	"title": "First Content",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "http://example.org/",
 	"title": "Areum Blog",
 	"tags": [],
