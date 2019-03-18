@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Study on Areum Blog</title>
-    <link>http://areuman.com/programming/javascript/study/</link>
+    <link>https://areuman.com/programming/javascript/study/</link>
     <description>Recent content in Study on Areum Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Mar 2019 15:21:31 -0400</lastBuildDate>
     
-	<atom:link href="http://areuman.com/programming/javascript/study/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://areuman.com/programming/javascript/study/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>One line on Areum Blog</title>
-    <link>http://areuman.com/oneline/</link>
+    <link>https://areuman.com/oneline/</link>
     <description>Recent content in One line on Areum Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Mar 2019 14:57:19 -0400</lastBuildDate>
     
-	<atom:link href="http://areuman.com/oneline/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://areuman.com/oneline/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
