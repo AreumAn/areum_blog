@@ -1,4 +1,4 @@
-baseURL = "http://areuman.com"
+baseURL = "https://areuman.com/"
 languageCode = "en-us"
 title = "Areum Blog"
 # Change the default theme to be use when building the site with Hugo
