@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Korean on Areum Blog</title>
-    <link>http://example.org/oneline/korean/</link>
+    <link>http://areuman.com/oneline/korean/</link>
     <description>Recent content in Korean on Areum Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Mar 2019 15:12:54 -0400</lastBuildDate>
     
-	<atom:link href="http://example.org/oneline/korean/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://areuman.com/oneline/korean/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
