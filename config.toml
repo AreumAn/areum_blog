@@ -27,3 +27,18 @@ languageName = "English"
 title = "어쩌다보니 개발자"
 weight = 2
 languageName = "한국어"
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-github'></i> Github"
+url = "https://github.com/AreumAn"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-linkedin'></i> Linkedin"
+url = "https://www.linkedin.com/in/areum-an-b34a7612b"
+weight = 11
+
+[[menu.shortcuts]]
+name = "<i class='far fa-envelope-open'></i> Email"
+url = "mailto:areum.an.0928@google.com"
+weight = 12
