@@ -101,3 +101,15 @@ a:hover {
 #sidebar hr {
     border-color: var(--MENU-SECTION-HR-color);
 }
+
+#footer {
+    padding: 3rem 1rem;
+    color: #b3b3b3;
+    font-size: 30px;
+}
+#footer p {
+    margin: 0;
+}
+#footer i {
+    padding: 10px;
+}

@@ -12,3 +12,18 @@ home = [ "HTML", "RSS", "JSON"]
 # Change default color scheme with a variant one. Can be "red", "blue", "green".
 themeVariant = "mine"
 
+# English is the default language
+defaultContentLanguage = "en"
+# Force to have /en/my-page and /kr/my-page routes, even for default language.
+defaultContentLanguageInSubdir= true
+
+[Languages]
+[Languages.en]
+title = "Areum An Blog"
+weight = 1
+languageName = "English"
+
+[Languages.kr]
+title = "어쩌다보니 개발자"
+weight = 2
+languageName = "한국어"
