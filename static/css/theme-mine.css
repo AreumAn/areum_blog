@@ -117,3 +117,15 @@ a:hover {
 #body-inner p {
     text-align: left;
 }
+
+#body a img {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+#body h5 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000 !important;
+
+}
