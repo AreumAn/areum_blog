@@ -42,3 +42,6 @@ weight = 11
 name = "<i class='far fa-envelope-open'></i> Email"
 url = "mailto:areum.an.0928@google.com"
 weight = 12
+
+[blackfriday]
+  hrefTargetBlank = true

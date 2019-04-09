@@ -113,3 +113,7 @@ a:hover {
 #footer i {
     padding: 10px;
 }
+
+#body-inner p {
+    text-align: left;
+}

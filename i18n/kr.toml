@@ -5,16 +5,16 @@ other = "검색..."
 other = "Clear History"
 
 [Attachments-label]
-other = "Attachments"
+other = "첨부"
 
 [title-404]
 other = "Error"
 
 [message-404]
-other = "Woops. Looks like this page doesn't exist ¯\\_(ツ)_/¯."
+other = "페이지가 없다능 ¯\\_(ツ)_/¯."
 
 [Go-to-homepage]
-other = "Go to homepage"
+other = "홈으로 가기"
 
 [Edit-this-page]
 other = "페이지 수정하기"
@@ -23,4 +23,4 @@ other = "페이지 수정하기"
 other = "More"
 
 [Expand-title]
-other = "Expand me..."
+other = "펼쳐보기"

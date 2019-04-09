@@ -8,6 +8,13 @@ pre = "<i class='fas fa-user-circle'></i> "
 
 ### About Areum
 
-# Some Chapter title
+# I AM GROWING..
 
-Lorem Ipsum.
+
+```js
+var name = 'Areum An';
+var en_name = 'Pizza';
+var nickname = 'no_beatuy';
+```
+
+![growing](https://drive.google.com/uc?id=1TbdW49Nj4A9QI6wqjUhMolfmcfrXkxd_)
