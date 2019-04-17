@@ -141,6 +141,9 @@ ___
 ### 유용한 플러그인들
 ___
 <!-- lazy loading, cdn, 다중언어
-css, js 추가하는 프로그램 -->
+css, js 추가하는 프로그램
+도메인 설정: https://support.google.com/a/answer/33353?hl=ko&ref_topic=4445319
+g suit 인증 : https://wpforms.com/how-to-securely-send-wordpress-emails-using-gmail-smtp/
+-->
 
 
