@@ -133,3 +133,8 @@ a:hover {
 #chapter #body-inner {
     width: 80% !important;
 }
+
+em a {
+    font-size: 0.8em;
+    color: green;
+}

@@ -6,8 +6,5 @@ chapter = true
 pre = "<i class='fas fa-laptop'></i> "
 +++
 
-### Chapter X
-
-# Some Chapter title
-
-Lorem Ipsum.
+### 컴퓨터 이해하기
+***
