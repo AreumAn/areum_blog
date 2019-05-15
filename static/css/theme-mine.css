@@ -39,6 +39,12 @@ h2, h3, h4, h5 {
     color: var(--MAIN-TITLES-TEXT-color) !important;
 }
 
+h4 {
+    background-color: #bebdbd94 !important;
+    color: #ffffff !important;
+    padding: 10px;
+}
+
 a {
     color: var(--MAIN-LINK-color);
 }
@@ -138,3 +144,8 @@ em a {
     font-size: 0.8em;
     color: green;
 }
+
+pre {
+    margin: 0;
+}
+
