@@ -12,7 +12,7 @@ pre = "<i class='fas fa-user-circle'></i> "
 ```js
 var name = 'Areum An';
 var en_name = 'Pizza';
-var nickname = 'no_beatuy';
+var nickname = 'no_beauty';
 ```
 
 <a name="about-top"></a>
