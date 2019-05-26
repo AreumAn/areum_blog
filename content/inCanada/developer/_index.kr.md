@@ -6,8 +6,11 @@ chapter = true
 pre = "<i class='fas fa-seedling'></i> "
 +++
 
-### Chapter X
 
-# Some Chapter title
+### 개발자 되기
+***
 
-Lorem Ipsum.
+개발자가 되기까지 면접과정, 취업준비 그리고 회사 생활 등을 공유하려고 합니다.
+
++ [시간관리 실험](https://areuman.com/kr/incanada/developer/time/)
+

@@ -6,8 +6,5 @@ chapter = true
 pre = "<i class='fab fa-canadian-maple-leaf'></i> "
 +++
 
-### Chapter X
 
-# Some Chapter title
-
-Lorem Ipsum.
+# coming soon

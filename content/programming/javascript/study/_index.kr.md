@@ -6,12 +6,7 @@ chapter = true
 pre = " > "
 +++
 
-### Chapter X
 
-# Some Chapter title
+# coming soon
 
-Lorem Ipsum.
-javascript
-hahahah
-test test
-hohoho
+

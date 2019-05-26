@@ -16,8 +16,6 @@ pre = "<i class='fab fa-wordpress'></i> "
 + [중요파일들 및 구조](#wp-section02)
 + [자주 수정되는 부분](#wp-section03)
 + [child theme vs theme](#wp-section07)
-+ [로컬에 세팅하기](#wp-section04)
-+ [도커에 설치하기](#wp-section05)
 + [유용한 플러그인들](#wp-section06)
 
 
@@ -130,14 +128,6 @@ _* 파일 변경 전에 호스팅 회사의 cpanel에 들어가서 php설정을 
     php_value max_input_time 300
     ```
 
-
-<a name="wp-section04"></a>
-### 로컬에 세팅하기
-___
-
-<a name="wp-section05"></a>
-### 도커에 설치하기
-___
 
 <a name="wp-section06"></a>
 ### 유용한 플러그인들

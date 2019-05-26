@@ -6,8 +6,10 @@ chapter = true
 pre = "<i class='fab fa-canadian-maple-leaf'></i> "
 +++
 
-### Chapter X
+# 소소한 이야기
 
-# Some Chapter title
+취업 과정, 면접이나 회사 이야기 등을 조금씩 나열해 볼 생각입니다.
 
-Lorem Ipsum.
+그리고 아래는 저의 유튜브입니다!
+[유튜브 보러 가기](https://www.youtube.com/channel/UCpHBM8-iW9BoFa4sMKPa82A)
+

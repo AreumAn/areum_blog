@@ -6,8 +6,6 @@ chapter = true
 pre = "<i class='fas fa-check'></i> "
 +++
 
-### Chapter X
 
-# Some Chapter title
+# coming soon
 
-Lorem Ipsum.

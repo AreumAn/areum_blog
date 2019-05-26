@@ -6,8 +6,6 @@ chapter = true
 pre = "<i class='fab fa-js-square'></i> "
 +++
 
-### Chapter X
 
-# Some Chapter title
+# coming soon
 
-Lorem Ipsum.
