@@ -19,6 +19,7 @@ pre = "<i class='far fa-window-maximize'></i> "
 + [정적 웹사이트와 동적 웹사이트](#web-static-dynamic)
 + [검색의 시대, 웹크롤러(web crawler)](#web-crawler)
 + [Redirection - 301 그리고 302](#web-redirection)
++ [CDN - 컨텐츠 전송 네트워크](#web-cdn)
 
 <a name="web-static-dynamic"></a>
 ### 정적 웹사이트와 동적 웹사이트
@@ -145,4 +146,36 @@ _재고가 떨어졌다는 알림 페이지를 B라고 한다면,_ <br />
 
 <u>_**301로 하게 되면**_</u><br />
 페이지 랭킹점수 자체가 모두 B로 이동을 했기때문에 재고가 다시 들어와서 A를 다시 이용하더라도 기존에 페이지 랭킴 점수는 모두 잃었기 때문에 다시 페이지 랭킹을 올리기 위해 더 열심히 일해야겠죠.....
+
+
+<a name="web-cdn"></a>
+### CDN - 컨텐츠 전송 네트워크
+___
+
+#### + [ CDN(Content delivery network / Content distribution network) ]
+
+CDN은 컨텐츠를 효율적으로 전달하기위해 제공되는 시스템입니다.
+그럼 어떻게 *효율적으로* 전달을 하겠다는 걸까요?
+
+아래 두 그림을 비교해 보면 쉽습니다.
+
+*ISP(Internet Service Provider)): 인터넷 서비스 제공자
+
+![CDN을 사용하지 않았을 때](https://drive.google.com/uc?id=14BlORJMRvapvi632IJDDzHVbYuojHfIJ)
+##### CDN을 사용하지 않았을 때
+
+
+![CDN을 사용](https://drive.google.com/uc?id=1Swjuqo2pzZgroLnKFaEUnoUyLBXxjRV-)
+##### CDN을 사용했을 때
+
+첫번째 그림은 하나의 origin 서버에서 각 세계의 요청에 응답을 모두 일일이 해줍니다.<br />
+반면에 두번째 CDN을 사용 한 그림을 보면 세계 각국에 캐시 저장소를 만들어 놓습니다.
+각 캐시는 text, graphics, script 등 파일들을 저장해 둡니다. 그리고 요청이 있을때 캐시에서 ISP로 요청한 자료를 보내주게 되죠. 서버에 계속 요청 할 필요 없으니 당연히 속도는 빨라지고 End-to-End 딜레이가 줄어들게 되겠죠.
+
+우리나라에서만 사용하는 작은 시스템엔 별로 영향이 없겠지만, 세계 각지에서 접속하는 유튜브, 네플릭스, 구글과 같은 사이트에는 굉장히 유용하겠죠.
+
+
+{{% notice info %}}
+[이미지 출처 바로가기](https://www.netmanias.com/ko/post/blog/5350/cdn/the-advantage-of-the-cdn-content-delivery-network)
+{{% /notice %}}
 
