@@ -10,6 +10,8 @@ pre = " > "
 ***
 
 + [Jquery UI란 무엇인가](#jqueryui_intro)
++ [Interactions 연습](#jqueryui_interactions)
+
 
 <a name="jqueryui_intro"></a>
 ### Jquery UI란 무엇인가
@@ -29,4 +31,29 @@ ___
     - ***Utilities***<br />
         Interactions과 widgets을 빌드 할 때 사용하는 유틸리티이다. (이건 아무래도 소스와 예제를 보면서 이야기 하는게 명확할 것 같다. - 쉬운 설명이 생각나면 바로 업데이트 하겠음당)
         - Position, Widget Factory
+
+
+<a name="jqueryui_interactions"></a>
+### Interactions 연습
+___
+
+[See all commits about interactions](https://github.com/AreumAn/jquery_ui_study/commits/interactions)
+
+- [draggable] scroll
+- [draggable] Constrain movement
+- [draggable] Cursor style
+- [draggable] start, drag, stop event
+- [draggable] handles
+- [draggable] Draggable and Sortable
+- [draggable] Revert position
+- [draggable] Snap to element or grid
+- [draggable] Visual feedback
+- [droppable] default functionality
+- [droppable] Accept, classes
+- [droppable] Prevent propagation: greedy
+- [droppable] Revert draggable position
+
+<!--  http://learn.jquery.com/jquery-ui/widget-factory/classes-option/   -->
+
+
 

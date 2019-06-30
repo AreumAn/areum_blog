@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Areum Blog"
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn-master"
+googleAnalytics = "UA-142185039-1"
 
 # For search functionality
 [outputs]
