@@ -45,6 +45,12 @@ h4 {
     padding: 10px;
 }
 
+h6 {
+    font-size: 1.4em;
+    color: orange;
+    text-align: center;
+}
+
 a {
     color: var(--MAIN-LINK-color);
 }
