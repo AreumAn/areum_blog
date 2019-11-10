@@ -7,5 +7,7 @@ pre = " > "
 +++
 
 
-# coming soon
+# Mac shortcut
+
+command + , : open setting
 
