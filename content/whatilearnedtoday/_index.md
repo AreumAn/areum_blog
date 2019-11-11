@@ -72,3 +72,122 @@ codeigniter like: Google Map API, Facebook API, and others.
 Undefined property: Product::$db
 ```
 - solution: `$autoload['libraries'] = array('database');. ` in autoload.php
+
+
+
+---
+
+###### 20191110
+
+1. Finish Create CI blog - update product [Git](https://github.com/AreumAn/Study_PHP_frameworks/pull/2)
+2. JS - codewar trainingJS(10-20)
+
+**[[ Javascript ]]**
+
+**slice()**
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
+
+```js
+arr.slice([begin[, end]])
+
+var animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+
+console.log(animals.slice(2));
+// expected output: Array ["camel", "duck", "elephant"]
+
+console.log(animals.slice(2, 4));
+// expected output: Array ["camel", "duck"]
+
+console.log(animals.slice(1, 5));
+// expected output: Array ["bison", "camel", "duck", "elephant"]
+
+console.log(animals.slice(1, -1));
+// Array ["bison", "camel", "duck"]
+
+console.log(animals.slice(-1));
+// Array ["elephant"]
+
+console.log(animals.slice(-2));
+// Array ["duck", "elephant"]
+```
+
+**substring()**
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring)
+
+```js
+str.substring(indexStart[, indexEnd])
+
+var str = 'Mozilla';
+
+console.log(str.substring(1, 3));
+// expected output: "oz"
+
+console.log(str.substring(2));
+// expected output: "zilla"
+```
+
+**substr()**
+
+Warning: Although String.prototype.substr(…) is not strictly deprecated (as in "removed from the Web standards"), it is considered a legacy function and should be avoided when possible. It is not part of the core JavaScript language and may be removed in the future. If at all possible, use the substring() method instead.
+
+**The difference between `substring()` and `substr()`**
+```js
+var text = 'Mozilla';
+console.log(text.substring(2,5)); // => "zil"
+console.log(text.substr(2,3));    // => "zil"
+```
+
+**Differences between `substring()` and `slice()`**
+```js
+var text = 'Mozilla';
+console.log(text.substring(5, 2)); // => "zil"
+console.log(text.slice(5, 2));     // => ""
+
+console.log(text.substring(-5, 2)); // => "Mo"
+console.log(text.substring(-5, -2)); // => ""
+
+console.log(text.slice(-5, 2)); // => ""
+console.log(text.slice(-5, -2)); // => "zil"
+```
+
+**split()**
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+
+```js
+str.split([separator[, limit]])
+
+var str = 'The quick brown fox jumps over the lazy dog.';
+
+var words = str.split(' ');
+console.log(words);
+// Array ["The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog."]
+
+var chars = str.split('');
+console.log(chars);
+// Array ["T", "h", "e", " ", "q", "u", "i", "c", "k", " ", "b", "r", "o", "w", "n", " ", "f", "o", "x", " ", "j", "u", "m", "p", "s", " ", "o", "v", "e", "r", " ", "t", "h", "e", " ", "l", "a", "z", "y", " ", "d", "o", "g", "."]
+
+var strCopy = str.split();
+console.log(strCopy);
+// Array ["The quick brown fox jumps over the lazy dog."]
+
+
+var words = str.split(' ', 3);
+// Array ["The", "quick", "brown"]
+
+```
+
+**join()**
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+
+```js
+var elements = ['Fire', 'Air', 'Water'];
+
+console.log(elements.join());
+// expected output: "Fire,Air,Water"
+
+console.log(elements.join(''));
+// expected output: "FireAirWater"
+
+console.log(elements.join('-'));
+// expected output: "Fire-Air-Water"
+```
