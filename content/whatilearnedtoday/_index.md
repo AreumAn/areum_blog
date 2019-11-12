@@ -191,3 +191,130 @@ console.log(elements.join(''));
 console.log(elements.join('-'));
 // expected output: "Fire-Air-Water"
 ```
+
+
+---
+
+###### 20191111
+
+1. JS - this
+
+**this** is an object in most of situation.
+
+**1) Regular function call :**
+
+'this' === global object (window object in browser)
+
+```js
+function foo () {
+    console.log(this);
+}
+foo();
+```
+
+```js
+var age = 100;
+
+function foo() {
+    var age = 99;
+    bar();
+}
+
+function bar() {
+    console.log(this.age); // 100
+}
+
+foo();
+```
+
+**2) Dot Notation**
+
+```js
+var age = 100;
+var areum = {
+    age: 35,
+    foo: function foo() {
+        console.log(this.age); // 35
+    },
+}
+areum.foo();
+```
+
+```js
+function foo() {
+    console.log(this.age);
+}
+
+var age = 100;
+
+var areum = {
+    age: 35,
+    foo: foo,
+};
+
+var momo = {
+    age: 30,
+    foo: foo
+};
+
+areum.foo();    // 35
+momo.foo()      // 30
+```
+
+**3) Function.prototype.call, Function.prototype.bind, Function.prototype.apply**
+
+```js
+var age = 100;
+
+function foo() {
+    console.log(this.age);
+}
+
+var areum = {
+    age: 35,
+};
+
+var momo = {
+    age: 30,
+};
+
+foo();  // 100
+
+foo.call(momo); // 31
+foo.apply(ken); // 35
+```
+
+```js
+var age = 100;
+
+function foo() {
+    console.log(this.age);
+}
+
+var areum = {
+    age: 35,
+};
+
+var = foo.bind(ken);
+bar(); // 34
+```
+
+**4) 'new' keyword**
+
+```js
+function foo() {
+    console.log(this);
+}
+
+new foo();
+```
+
+```js
+function foo() {
+    this.name = 'areum';
+}
+
+var toronto = new foo();
+
+console.log(toronto);
+```
