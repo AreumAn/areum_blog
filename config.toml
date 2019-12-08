@@ -44,5 +44,11 @@ name = "<i class='far fa-envelope-open'></i> Email"
 url = "mailto:areum.an.0928@google.com"
 weight = 12
 
+[[menu.shortcuts]]
+name = "<i class='far fa-window-maximize'></i> Website"
+url = "https://areuman.work"
+weight = 13
+
+
 [blackfriday]
   hrefTargetBlank = true
