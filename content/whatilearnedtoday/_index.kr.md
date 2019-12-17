@@ -13,14 +13,28 @@ Dairy learning note from 2019
 ___
 #### 2019 December
 
+
 ###### 20191218
 
+1. console.table()
 `console.table();` show console log more beautiful when you want to see `object` or `array` in your browser console.
 
 ex) `console.table(iamobject);`
 
 It shows this console log!
 ![console.table(](http://areuman.work/wp-content/uploads/2019/12/consoletable.png)
+
+2. my commit not showing up on my profile in github
+
+I realized my commit didn't show my github profile after I changed my computer. 
+
+It was because 
+my email address in gitconfig file and github website setting was different.
+
+you can edit your address in gitconfig.
+`git config --global --edit`
+
+If you need more information, [check github site](https://help.github.com/en/github/setting-up-and-managing-your-github-profile/why-are-my-contributions-not-showing-up-on-my-profile "check github site")
 
 ___
 #### 2019 November
