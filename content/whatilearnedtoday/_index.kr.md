@@ -8,7 +8,19 @@ pre = "<i class='fas fa-calendar-day'></i>  "
 
 ### What I learned today
 
-Dairy learning note from 2019 november
+Dairy learning note from 2019
+
+___
+#### 2019 December
+
+###### 20191218
+
+`console.table();` show console log more beautiful when you want to see `object` or `array` in your browser console.
+
+ex) `console.table(iamobject);`
+
+It shows this console log!
+![console.table(](http://areuman.work/wp-content/uploads/2019/12/consoletable.png)
 
 ___
 #### 2019 November
