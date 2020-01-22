@@ -8,7 +8,35 @@ pre = "<i class='fas fa-calendar-day'></i>  "
 
 ### What I learned today
 
+
+Dairy learning note from 2020
+
+___
+#### 2020 January
+
+###### 20200120
+
+How to use Typescript with React
+
+[Git](https://github.com/AreumAn/react-typescript/commits/master)
+
+1. Create new React project with Typescript
+```
+npx create-react-app typescript-react-demo --typescript
+```
+
+2. How to use styled-components
+```
+yarn add styled-components
+yarn add @types/styled-components
+```
+
+
+
+___
+{{% notice info %}}
 Dairy learning note from 2019
+{{% /notice %}}
 
 ___
 #### 2019 December
